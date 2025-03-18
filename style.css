@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height:450px;
+    background: rgb(207, 194, 194);
+    border-radius: 20px;
+}
+.container img{
+    width: 100px;
+    margin: 60px;
+    margin-top: 0;
+    border-radius: 20px;
+}
+#select option{
+    padding: 40px;
+}
+.app{
+    padding: 10px;
+    margin: 20px;
+    
+   
+
+}
+.app a{
+    background: rebeccapurple;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px;
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
