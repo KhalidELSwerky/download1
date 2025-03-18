@@ -6,8 +6,15 @@
 body{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#search{
+    margin: 10px;
+    padding: 15px;
+    border: solid red 10px;
 }
 .container{
     display: flex;
@@ -20,11 +27,12 @@ body{
     border-radius: 20px;
 }
 .container img{
-    width: 100px;
+    width: 170px;
     margin: 60px;
     margin-top: 0;
     border-radius: 20px;
 }
+
 #select option{
     padding: 40px;
 }

@@ -37,3 +37,16 @@ console.log(select.value)
 
 
 }
+function filterOption(){
+    let input = document.getElementById("search").value.toLowerCase();
+    let select = document.getElementById("select1");
+    let options = select.getElementsByTagName("option");
+
+    for (let option of options) {
+        let text = option.textContent.toLowerCase();
+        option.style.display = text.includes(input) ? "" : "none";
+
+    }
+
+
+}
